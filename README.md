@@ -1,0 +1,2 @@
+# jose-jaita-graficos-2017-2
+COMPUTACION GRAFICA 2017-2 TAREAS
