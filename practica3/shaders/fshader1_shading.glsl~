@@ -1,0 +1,16 @@
+#version 130
+
+in vec3 vert_color;
+in vec2 tex_coord;
+out vec4 fColor;
+
+uniform int tex_flag;
+uniform sampler2D texture1;
+
+void main() {
+  if (tex_flag == 1){
+    fColor = vec4(vert_color,1.0)*texture(texture1, tex_coord);
+  }else{
+    fColor = vec4(vert_color,1.0);
+  }
+} 
